@@ -86,28 +86,27 @@ const Slide169OnePage = () => {
                 </Text>
                 <Input
                   name="textfieldoutlin"
-                  placeholder="Enter Email or Phone"
+                  placeholder="Enter Email or Phonenumber"
                   className="font-inter font-medium p-0 placeholder:text-gray-800_01 text-left text-sm tracking-[0.15px] w-full"
                   wrapClassName="mt-8 w-full"
                   type="email"
-                  size="sm"
                 ></Input>
                 <Input
                   name="textfieldoutlin_One"
                   placeholder="Password"
                   className="font-inter font-medium p-0 placeholder:text-gray-800_01 text-left text-sm tracking-[0.15px] w-full"
-                  wrapClassName="flex mt-[27px] w-[400px] sm:w-full"
+                  wrapClassName="flex mt-[34px] w-[400px] sm:w-full"
                   type="password"
                   suffix={
                     <Img
-                      className="h-[25px] ml-[35px] my-auto"
+                      className="mt-auto mb-px h-[25px] ml-[35px]"
                       src="images/img_fluenteye20filled.svg"
                       alt="fluent:eye-20-filled"
                     />
                   }
                 ></Input>
                 <Text
-                  className="md:ml-[0] ml-[247px] mt-[23px] text-base text-gray-600"
+                  className="md:ml-[0] ml-[247px] mt-4 text-base text-gray-600"
                   size="txtInterRegular16"
                 >
                   Recover Password ?

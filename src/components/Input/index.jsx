@@ -8,7 +8,7 @@ const variants = {
   },
 };
 const shapes = { round: "rounded-[10px]" };
-const sizes = { xs: "pb-3.5 pl-3 pr-3.5 pt-4", sm: "pl-3 pr-[19px] py-[19px]" };
+const sizes = { sm: "pl-3 pr-[19px] py-[19px]" };
 
 const Input = React.forwardRef(
   (
@@ -25,7 +25,7 @@ const Input = React.forwardRef(
       suffix,
       onChange,
       shape = "round",
-      size = "xs",
+      size = "sm",
       variant = "outline",
       color = "gray_300_01",
       ...restProps
@@ -70,7 +70,7 @@ Input.propTypes = {
   placeholder: PropTypes.string,
   type: PropTypes.string,
   shape: PropTypes.oneOf(["round"]),
-  size: PropTypes.oneOf(["xs", "sm"]),
+  size: PropTypes.oneOf(["sm"]),
   variant: PropTypes.oneOf(["outline"]),
   color: PropTypes.oneOf(["gray_300_01"]),
 };
